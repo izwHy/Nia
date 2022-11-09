@@ -1,0 +1,4 @@
+name: Nia
+version: '${project.version}'
+main: ml.nanoudieum.nia.Nia
+api-version: 1.19
