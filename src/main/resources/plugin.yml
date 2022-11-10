@@ -1,4 +1,13 @@
 name: Nia
-version: '${project.version}'
+version: 0.1.1
 main: ml.nanoudieum.nia.Nia
 api-version: 1.19
+commands:
+  broadcast:
+    permission: nia.broadcast
+    description: Permets d'envoyer un message a tout les joueurs !
+    aliases:
+      - bc
+  poupeff:
+      permission: nia.poupeff
+      description: Tue TOUT les joueurs

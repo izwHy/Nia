@@ -1,17 +1,22 @@
 package ml.nanoudieum.nia;
 
+import ml.nanoudieum.nia.commands.broadcast;
+import ml.nanoudieum.nia.commands.poupeff;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Nia extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        System.out.println("Niaaa Je suis là");
+
+        getCommand("broadcast").setExecutor(new broadcast());
+        getCommand("poupeff").setExecutor(new poupeff());
 
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        System.out.println("Niaaaa Je m'envaaaaiiis");
     }
 }
